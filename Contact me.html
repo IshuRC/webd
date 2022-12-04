@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>My contact Details</h1>
+    <p>My fictional Address</p>
+    <a href="tel:5558920234" onclick="ga('send', 'event', { eventCategory:
+       'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+       <p class="call-button">Click to Call</p></a>
+
+    <form action="mailto:chaudhary15ishu@gmail.com" method="post" enctype="text/plain">
+      <label>Name</label> <br>
+      <input type="text" name="yourName"><br>
+      <label>Email</label> <br>
+      <input type="email" name="YourEmail" value=""> <br>
+
+      <label> Your message</label> <br>
+      <textarea name="yourmessage" rows="10" cols="40"></textarea> <br>
+      <input type="submit" name=""><br>
+      </form>
+
+  </body>
+</html>
